@@ -22,3 +22,14 @@ AI 基于知识库回答
 我们先做：上传文本 + 提问 + AI回答
 
 不做向量数据库，先理解 LLM 调用。
+
+
+| 包             | 作用         |
+| ------------- | ---------- |
+| fastapi       | 做 API 服务器  |
+| uvicorn       | 运行服务器      |
+| openai        | 调用大模型      |
+| langchain     | 构建 AI 应用逻辑 |
+| chromadb      | 存向量做检索     |
+| pydantic      | 数据校验       |
+| python-dotenv | 管理环境变量     |
